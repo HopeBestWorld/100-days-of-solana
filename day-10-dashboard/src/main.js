@@ -6,8 +6,7 @@ import {
 } from "@solana/kit";
 
 // devnet() returns "https://api.devnet.solana.com"
-const rpc = createSolanaRpc(devnet());
-
+const rpc = createSolanaRpc("https://api.devnet.solana.com");
 const addressInput = document.getElementById("addressInput");
 const fetchBtn = document.getElementById("fetchBtn");
 const resultsDiv = document.getElementById("results");
